@@ -1,0 +1,106 @@
+/* HEADER IS START */
+* {
+    /* margin: 0;
+    padding: 0; */
+    font-family: sans-serif;
+}
+
+.header-wrapper {
+    text-align: center;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+}
+
+/* HEADER IS END */
+
+/* MAIN IS START */
+
+.row {
+    display: flex;
+}
+
+.col-50 {
+    width: 50%;
+}
+
+.bg {
+    background-color: aqua;
+}
+
+.bg-changed {
+    background-color: chartreuse;
+    /* background-size: cover; */
+}
+
+.d-f {
+    display: flex;
+}
+
+.rpt {
+    background-image: url(./images.jfif);
+    width: 50%;
+    width: 500px;
+    height: 500px;
+}
+
+.n-rpt {
+    width: 50%;
+    background: url(./images.jfif) no-repeat;
+    width: 500px;
+    height: 500px;
+}
+
+.center-element {
+    background-color: brown;
+    color: white;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.layouts-wrapper {
+    background-color: whitesmoke;
+}
+
+.layouts {
+    margin: 0 100px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.col {
+    margin: 10px;
+    background-color: white;
+}
+
+.thumbnail {
+    padding: 80px 150px;
+    background-color: #55595C;
+    color: white;
+    font-weight: bold;
+}
+
+.text {
+    margin: 20px;
+}
+
+.buttons {
+    display: flex;
+}
+
+.btn {
+    border: 1px solid;
+    padding: 3px 15px;
+    border-radius: 3px;
+}
+
+/* MAIN IS END */
+
+/* FOOTER IS START */
+
+
+
+/* FOOTER IS END */

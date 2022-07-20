@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border Outline</title>
+    <style>
+        div{
+            margin: 20px;
+        }
+
+        .border-solid{border: 10px solid teal;}
+        .border-dashed{border: 10px dashed teal;}
+        .border-dotted{border: 10px dotted teal;}
+        .border-double{border: 10px double teal;}
+        .border-groove{border: 10px groove teal;}
+        .border-inset{border: 10px inset teal;}
+        .border-outset{border: 10px outset teal;}
+
+        .border-vs-outline{
+            border: 20px solid red;
+            outline: 20px dashed teal;
+            /* cursor: alias; */
+            /* cursor: all-scroll; */
+            /* cursor: cell; */
+            /* cursor: col-resize; */
+            /* cursor: copy; */
+            /* cursor: crosshair; */
+            /* cursor: e-resize; */
+            /* cursor: ew-resize; */
+            /* cursor: grab; */
+            /* cursor: grabbing; */
+            /* cursor: help; */
+            /* cursor: move; */
+            /* cursor: n-resize; */
+            /* cursor: ne-resize; */
+            /* cursor: no-drop; */
+            /* cursor: pointer; */
+            /* cursor: progress; */
+            /* cursor: zoom-in; */
+            /* cursor: zoom-out; */
+
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="border-solid">Border Solid</div>
+<div class="border-dashed">Border Dashed</div>
+<div class="border-dotted">Border Dotted</div>
+<div class="border-double">Border Double</div>
+<div class="border-groove">Border Groove</div>
+<div class="border-inset">Border Inset</div>
+<div class="border-outset">Border Outset</div>
+
+<hr>
+<hr>
+
+<div class="border-vs-outline">This is Border[Red] Vs Outline[Teal].</div>
+</body>
+
+</html>

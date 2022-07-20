@@ -1,0 +1,15 @@
+/* Element Selectors */
+
+div{
+    color: blue;
+}
+
+p{
+    background-color: aqua;
+    color: red;
+}
+
+label{
+    font-size: large;
+    color: teal;
+}

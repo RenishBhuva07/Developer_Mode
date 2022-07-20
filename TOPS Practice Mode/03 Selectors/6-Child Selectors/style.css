@@ -1,0 +1,27 @@
+/* Child Selectors */
+
+/* ul.menu a{
+    text-decoration: none;
+} */
+
+
+
+/* General Child */
+
+/* .menu a{
+    text-decoration: none;
+} */
+
+
+/* Child */
+
+/* .menu>a{
+    text-decoration: none;
+} */
+
+
+/* Grand Child */
+
+.menu>p>a{
+    text-decoration: none;
+}

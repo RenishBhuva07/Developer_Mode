@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TextDecor</title>
+    <style>
+        .textdecor-dashed{text-decoration:underline dashed red;}
+        .textdecor-dotted{text-decoration: overline underline dotted blue;}
+        .textdecor-double{text-decoration: underline double teal;}
+        .textdecor-linethrough{text-decoration: line-through yellowgreen;}
+        .textdecor-overline{text-decoration: overline aquamarine;}
+        .textdecor-solid{text-decoration:underline overline solid pink;}
+        .textdecor-underline{text-decoration: underline goldenrod;}
+        .textdecor-wavy{text-decoration:underline overline wavy mediumvioletred;}
+
+        .none{
+            text-decoration: none;
+            background-color: red;
+            color: white;
+            padding: 10px;
+            margin: 10px;
+            display: inline-block;
+            border-radius: 10px;
+        }
+        a:hover{
+            box-shadow: 2px 2px 5px black;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <p class="textdecor-dashed">Text Decor Dashed</p>
+        <p class="textdecor-dotted">Text Decor Dotted</p>
+        <p class="textdecor-double">Text Decor Double</p>
+        <p class="textdecor-linethrough">Text Decor Linethrough</p>
+        <p class="textdecor-overline">Text Decor Overline</p>
+        <p class="textdecor-solid">Text Decor Solid</p>
+        <p class="textdecor-underline">Text Decor Underline</p>
+        <p class="textdecor-wavy">Text Decor Wavy</p>
+    </div>
+    <div>
+        <a href="#" class="none">Click Me</a>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,5 @@
+/* Descendant Selectors */
+ul.menu a {
+    text-decoration: none;
+    color: yellowgreen;
+}

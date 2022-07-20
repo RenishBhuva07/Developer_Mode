@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Elements</title>
+    <style>
+        p::first-letter {
+            font-size: 36px;
+        }
+
+        p::first-line {
+            background-color: blue;
+            color: white;
+        }
+
+        p::selection {
+            background-color: black;
+            color: aqua;
+        }
+
+        h2::after {
+            content: "~";
+        }
+
+        h2::before {
+            content: "~";
+        }
+    </style>
+</head>
+
+<body>
+    <h2>This is Heading.</h2>
+    <h2>This is Heading.</h2>
+    <h2>This is Heading.</h2>
+    <h2>This is Heading.</h2>
+    <div>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid suscipit debitis aliquam qui reiciendis
+            accusantium consectetur assumenda nam porro? Ad aliquid vero modi itaque, hic nesciunt perferendis libero
+            qui repellat.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae aut autem eaque reprehenderit possimus
+            beatae perferendis natus non laboriosam sed, cumque ducimus repellat dignissimos! Quisquam illo inventore,
+            animi dolore temporibus, dolorem porro eum deleniti assumenda aperiam explicabo minima sunt fuga molestiae
+            consectetur. Quas dolorem amet repellat ducimus magni expedita nesciunt.
+        </p>
+    </div>
+</body>
+
+</html>

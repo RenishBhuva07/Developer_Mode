@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boder Radius</title>
+    <style>
+        .rounded-box {
+            display: inline-block;
+            height: 200px;
+            width: 200px;
+            border-radius: 0 50% 50% 50%;
+            background-color: rgb(255, 153, 0);
+            color: white;
+            font-size: 55px;
+        }
+
+        .clip-path {
+            background-color: tomato;
+            clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+            height: 500px;
+            width: 500px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Rounded-Box -->
+    <div class="rounded-box">
+        Renish Bhuva
+    </div>
+    <!-- Clip-Box -->
+    <div class="clip-path">
+    </div>
+
+
+</body>
+
+</html>

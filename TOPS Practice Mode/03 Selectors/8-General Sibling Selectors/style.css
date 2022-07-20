@@ -1,0 +1,7 @@
+/* General Sibling Selectors */
+
+h2~p{
+    color: tomato;
+    background-color: aqua;
+    font-weight: bold;
+}

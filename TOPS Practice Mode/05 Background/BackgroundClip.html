@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Clip</title>
+    <style>
+        div {
+            height: 600px;
+            border: 10px dashed red;
+        }
+
+        .bg-clip-borderbox {
+            background-image: url(./2.jpg);
+            background-clip: border-box;
+        }
+
+        .bg-clip-contentbox {
+            background-image: url(./2.jpg);
+            background-clip: content-box;
+        }
+
+        .bg-clip-paddingbox {
+            background-image: url(./2.jpg);
+            background-clip: padding-box;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Borderbox</h2>
+    <div class="bg-clip-borderbox"></div>
+    <div class="bg-clip-borderbox"></div>
+    <h2>Contetbox</h2>
+    <div class="bg-clip-contentbox"></div>
+    <div class="bg-clip-contentbox"></div>
+    <h2>paddingbox</h2>
+    <div class="bg-clip-paddingbox"></div>
+    <div class="bg-clip-paddingbox"></div>
+    
+</body>
+
+</html>

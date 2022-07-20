@@ -1,0 +1,12 @@
+/* Adjacent Sibling Selectors */
+
+
+h1+p{
+    color: brown;
+    font-weight: bold;
+}
+
+h2+p{
+    color: tomato;
+    font-size: large;
+}

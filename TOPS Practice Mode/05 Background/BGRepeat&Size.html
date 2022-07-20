@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Repeat & Background Size</title>
+    <style>
+        div{
+            height: 600px;
+            border: 10px dashed maroon;
+        }
+        /* Repeat */
+        .bg-repeat-nr{
+            background-image: url(./3.jpg);
+            background-repeat: no-repeat;
+            background-position: 50% 150%;
+        }
+        /* size */
+        .bg-size-contain{
+            background-image: url(./3.jpg);
+            background-size: contain;
+            /* background-repeat: no-repeat; */
+        }
+        .bg-size-cover{
+            background-image: url(./3.jpg);
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+<!-- repeat -->
+<div class="bg-repeat-nr"></div>
+<!-- size -->
+<div class="bg-size-contain"></div>
+<div class="bg-size-cover"></div>
+
+</body>
+
+</html>

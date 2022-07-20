@@ -1,0 +1,14 @@
+/* Id Selectors - Remeber That An ID Is Unique (You Can't Use Same Id In Two Or More Element.) */
+
+#Renish {
+    color: yellowgreen;
+}
+
+#Ravi {
+    color: chocolate;
+}
+
+#Parth {
+    background-color: black;
+    color: white;
+}

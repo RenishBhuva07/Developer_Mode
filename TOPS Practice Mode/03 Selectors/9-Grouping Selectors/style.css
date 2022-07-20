@@ -1,0 +1,7 @@
+/* Grouping Selectors */
+
+h1,label,p,div{
+    color: saddlebrown;
+    background-color: aquamarine;
+    font-weight: bold;
+}

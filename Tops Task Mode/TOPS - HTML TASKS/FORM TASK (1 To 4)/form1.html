@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+</head>
+
+<body style="background-color:pink">
+    <!-- Header -->
+    <div align="center" style="background-color: aqua;">
+        <h1>Job Application</h1>
+        <p>Please complete the form below to apply for a position with us.</p>
+    </div>
+    <hr color="black">
+    <!-- Starting FORM Here -->
+    <div align="center">
+        <form action="page.php" target="_blank" enctype="multipart/form-data" method="post">
+            <table>
+                <!-- Name -->
+                <tr>
+                    <td>Full Name:</td>
+                    <td>
+                        <input style="padding: 5px;" type="text" name="First Name" id="First Name"
+                            placeholder="First Name" required>
+                        <input style="padding: 5px;" type="text" name="Middle Name" id="Middle Name"
+                            placeholder="Middle Name" required>
+                        <input style="padding: 5px;" type="text" name="Last Name" id="Last Name" placeholder="Last Name"
+                            required>
+                    </td>
+                </tr>
+                <!-- Date Of Birth -->
+                <tr>
+                    <td>
+                        <label for="DOB">Date Of Birth:</label>
+                    </td>
+                    <td>
+                        <input style="padding: 5px;" type="Date" name="dob" id="dob">
+                    </td>
+                </tr>
+                <!-- Age -->
+                <tr>
+                    <td>
+                        <label for="age">Age:</label>
+                    </td>
+                    <td>
+                        <input style="padding: 5px;" type="number" min="21" max="30" name="age" id="age">
+                    </td>
+                </tr>
+                <!-- Gender Buttons -->
+                <tr>
+                    <td>Gender:</td>
+                    <td>
+                        <label for="male">
+                            <input type="radio" value="male" name="gender" id="male">Male
+                        </label>
+                        <label for="female">
+                            <input type="radio" value="female" name="gender" id="female">Female
+                        </label>
+                        <label for="others">
+                            <input type="radio" value="others" name="gender" id="others">Others
+                        </label>
+                    </td>
+                </tr>
+                <!-- Mobile -->
+                <tr>
+                    <td>Mobile:</td>
+                    <td>
+                        <input style="padding: 5px;" type="tel" minlength="10" maxlength="10" name="mobile" id="mobile"
+                            placeholder="xxxxxxxxxx">
+                    </td>
+                </tr>
+                <!-- Address -->
+                <div>
+                    <tr>
+                        <td>
+                            <label for="address">Address:</label>
+                        </td>
+                        <td>
+                            <input style="padding: 5px;" type="text" name="address" id="line1"
+                                placeholder="Flat No. & Flat Name">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input style="padding: 5px;" type="text" name="address" id="line2"
+                                placeholder="Society name">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input style="padding: 5px;" type="text" name="address" id="line3"
+                                placeholder="Street Name">
+                        </td>
+                    </tr>
+                </div>
+                <!-- City-->
+                <tr>
+                    <td>
+                        <label for="city">City:</label>
+                    </td>
+                    <td>
+                        <select style="padding: 5px;" name="city" id="city">
+                            <option value="gj1">Select Your City</option>
+                            <option value="gj1">Ahmedabad</option>
+                            <option value="gj2">Mehsana</option>
+                            <option value="gj3">Rajkot</option>
+                            <option value="gj4">Bhavnagar</option>
+                            <option value="gj5">Surat</option>
+                            <option value="gj6">Vadodara</option>
+                            <option value="gj7">Kheda</option>
+                            <option value="gj8">Banaskantha</option>
+                            <option value="gj9">Sabarkantha</option>
+                            <option value="gj10">Jamnagar</option>
+                            <option value="gj11">Junagadh</option>
+                            <option value="gj12">Kutch</option>
+                            <option value="gj13">Surendranagar</option>
+                            <option value="gj14">Amreli</option>
+                            <option value="gj15">Valsad</option>
+                            <option value="gj16">Bharuch</option>
+                            <option value="gj17">Panchmahal</option>
+                            <option value="gj18">Gandhinagar</option>
+                            <option value="gj19">Bardoli</option>
+                            <option value="gj20">Dahod</option>
+                            <option value="gj21">Navsari</option>
+                            <option value="gj22">Narmada</option>
+                            <option value="gj23">Anand</option>
+                            <option value="gj24">Patan</option>
+                            <option value="gj25">Porbandar</option>
+                            <option value="gj26">Vyara</option>
+                            <option value="gj30">Aahwa</option>
+                            <option value="gj31">Modasa</option>
+                            <option value="gj32">Veraval</option>
+                            <option value="gj33">Botad</option>
+                            <option value="gj34">Chhota Udepur</option>
+                            <option value="gj35">Lunavada</option>
+                            <option value="gj36">Morbi</option>
+                            <option value="gj37">Khambhaliya</option>
+                            <option value="gj38">Bavla</option>
+                        </select>
+                    </td>
+                </tr>
+                <!-- Pincode Is Here -->
+                <tr>
+                    <td>
+                        <label for="pincode">Pincode:</label>
+                    </td>
+                    <td>
+                        <input style="padding: 5px;" type="text" name="pincode" id="pincode" placeholder="Pincode"
+                            minlength="6" maxlength="6">
+                    </td>
+                </tr>
+                <!-- State -->
+                <tr>
+                    <td>
+
+                        <label for="state">State:</label>
+                    </td>
+                    <td>
+                        <input style="padding: 5px;" list="state" name="name of states">
+                        <datalist id="state">
+                            <option value="Andra Pradesh"></option>
+                            <option value="Arunachal Pradesh"></option>
+                            <option value="Assam"></option>
+                            <option value="Bihar"></option>
+                            <option value="Chhatisgarh"></option>
+                            <option value="Goa"></option>
+                            <option value="Gujarat"></option>
+                            <option value="Haryana"></option>
+                            <option value="Himachal Pradesh"></option>
+                            <option value="Jharkhand"></option>
+                            <option value="Karnataka"></option>
+                            <option value="Kerala"></option>
+                            <option value="Madhya Pradesh"></option>
+                            <option value="Maharashtra"></option>
+                            <option value="Manipur"></option>
+                            <option value="Meghalaya"></option>
+                            <option value="Mizoram"></option>
+                            <option value="Nagaland"></option>
+                            <option value="Odisha"></option>
+                            <option value="Punjab"></option>
+                            <option value="Rajasthan"></option>
+                            <option value="Sikkim"></option>
+                            <option value="Tamil Nadu"></option>
+                            <option value="Telangana"></option>
+                            <option value="Tripura"></option>
+                            <option value="Uttar Pradesh"></option>
+                            <option value="Uttarakhand"></option>
+                            <option value="West Bengal"></option>
+                        </datalist>
+                    </td>
+                </tr>
+                <!-- Country -->
+                <tr>
+                    <td>
+                        <label for="country">Country:</label>
+                    </td>
+                    <td>
+                        <input style="padding: 5px;" type="text" name="country" readonly id="country" value="India">
+                    </td>
+                </tr>
+                <!-- Email -->
+                <tr>
+                    <td>Email:</td>
+                    <td>
+                        <input style="padding: 5px;" type="email" name="email" id="email"
+                            placeholder="myname@example.com" required>
+                    </td>
+                </tr>
+                <!-- Job Positions -->
+                <tr>
+                    <td>
+                        <label for="">Applying For Postion:</label>
+                    </td>
+                    <td>
+                        <input style="padding: 5px;" list="Applying For Position" type="text" name="name of position">
+                        <datalist id="Applying For Position">
+                            <option value="Web Designer"></option>
+                            <option value="Front-End Developer"></option>
+                            <option value="Back-End Developer"></option>
+                            <option value="Network Administrator"></option>
+                            <option value="System Analyst"></option>
+                            <option value="Database Administrator"></option>
+                            <option value="Software Application Packager"></option>
+                            <option value="Full-Stack Developer"></option>
+                            <option value="Senior SOftware Engineer"></option>
+                            <option value="Data Scientist"></option>
+                            <option value="User Experience Designer"></option>
+                            <option value="Development Operations Engineer"></option>
+                            <option value="Cloud Engineer"></option>
+                            <option value="It Security Specialist"></option>
+                            <option value="Analytics Manager"></option>
+                            <option value="Director Of Imformation Technology"></option>
+                            <option value="Mobile Developer"></option>
+                            <option value="Game Developer"></option>
+                            <option value="Hardware Engineer"></option>
+                            <option value="Web-Developer"></option>
+                            <option value="Help-Desk Analyst"></option>
+                            <option value="It Coordinator"></option>
+                            <option value="Web Administrator"></option>
+                        </datalist>
+                    </td>
+                </tr>
+                <!-- Expected Packages -->
+                <tr>
+                    <td>
+                        <label for="">Expected Package:</label>
+                    </td>
+                    <td>
+                        <input style="padding: 5px;" type="number" min="250000" max="1000000" name="salary" id="salary">
+                    </td>
+                </tr>
+                <!-- Date Of Start The Job -->
+                <tr>
+                    <td>
+                        <label for="start date">Start Date:</label>
+                    </td>
+                    <td>
+                        <input style="padding: 5px;" type="date" name="start date" id="start date">
+                    </td>
+                </tr>
+                <!-- Linkedin URL -->
+                <tr>
+                    <td>
+                        <label for="">Linkedin URL:</label>
+                    </td>
+                    <td>
+                        <input style="width: 100%; padding: 5px;" type="url" name="url" id="url"
+                            placeholder="https://www.linkedin.com/in/my-name-xxxxx">
+                    </td>
+                </tr>
+                <!-- Attechment CV File Code -->
+                <tr>
+                    <td>
+                        <label for="">Upload Resume:</label>
+                    </td>
+                    <td>
+                        <input type="file" accept="*image/" name="file" id="file">
+                    </td>
+                </tr>
+                <!-- Submit Button -->
+                <table>
+                    <tr align="center">
+                        <td>
+                            <input style="padding: 5px; background-color: aqua;" type="submit" name="submit" id="submit">
+                        </td>
+                    </tr>
+                </table>
+
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Form</title>
+</head>
+
+<body style="background-color:teal;">
+    <!-- Header -->
+    <div align="center" style="background-color: yellow;">
+        <h1>SignUp Now</h1>
+        <p>Create Your Account.</p>
+    </div>
+    <!-- Starting Form Here -->
+    <div>
+        <form action="results.html" method="get">
+            <table align="center" cellpadding="20">
+                <!-- Fisrt & Last Name -->
+                <tr>
+                    <td>
+                        <input type="text" style="width: 90%; padding: 5px;" name="first name" id="first name"
+                            placeholder="First Name" required>
+                    </td>
+                    <td>
+                        <input type="text" style="width: 100%; padding: 5px;" name="last name" id="last name"
+                            placeholder="Last Name" required>
+                    </td>
+                </tr>
+                <!-- Email -->
+                <tr>
+                    <td colspan="2">
+                        <input style="width: 100%; padding: 5px;" type="email" name="email" id="email"
+                            placeholder="myname@example.com" required>
+                    </td>
+                </tr>
+                <!-- Password -->
+                <tr>
+                    <td colspan="2">
+                        <input style="width: 100%; padding: 5px;" type="password" name="password" id="password"
+                            placeholder="password">
+                    </td>
+                </tr>
+                <!-- Confirm Password -->
+                <tr>
+                    <td colspan="2">
+                        <input type="password" style="width: 100%; padding: 5px;" name="password" id="password"
+                            placeholder="Confirm Password">
+                    </td>
+                </tr>
+                <!-- Privacy Accept Button -->
+                <tr>
+                    <td colspan="2">
+                        <label for="t&c">
+                            <input type="checkbox" name="t&c" id="t&c" required>
+                        </label>I Accept The <b style="color: blue;">Terms Of Use</b> & <b style="color:blue;">Privacy
+                            Policy.</b>
+                    </td>
+                    <!-- <td></td> -->
+                </tr>
+                <!-- Submit Button -->
+                <table align="center">
+                    <tr>
+                        <td>
+                            <input style="padding: 5px; width: 100%; background-color: coral;" type="submit" name="submit" id="submit" value="SignUp">
+                        </td>
+                    </tr>
+                </table>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>

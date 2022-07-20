@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form For Course</title>
+</head>
+
+<body width="100%" style="background-color:rgba(182, 184, 181, 255)">
+    <!-- Starting Header -->
+    <div style="background-color:rgba(204,34,34,255)">
+        <h1 align="center">
+            -:REGISTER NOW:-
+        </h1>
+    </div>
+    <hr color="black">
+    <table width="100%">
+        <tr>
+            <!-- Fisrt Table Column -->
+            <td width="30%">
+                <div id="container">
+                    <img width="100%" height="100%" src="fm4.jpg" alt="Photo Logo">
+                </div>
+            </td>
+            <div>
+                <!-- Starting FORM Here -->
+                <form action="results.html" method="get">
+                    <!-- Second Tabel Column -->
+                    <td width="35%" align="center">
+                        <!-- First Name -->
+                        <div>
+                            <label for="firstname"> First Name:</label>
+                        </div>
+                        <div>
+                            <input style="padding: 7px; width: 70%;" type="text" name="firstname" id="firstname">
+                        </div>
+                        <br>
+                        <br>
+                        <!-- Last Name -->
+                        <div>
+                            <label for="lastname">Last Name:</label>
+                        </div>
+                        <div>
+                            <input style="padding: 7px; width: 70%;" type="text" name="lastname" id="lastname">
+                        </div>
+                        <br>
+                        <br>
+                        <!-- Company -->
+                        <div>
+                            <label for="company">Company:</label>
+                        </div>
+                        <div>
+                            <input style="padding: 7px; width: 70%;" type="text" name="company" id="company">
+                        </div>
+                        <br>
+                        <br>
+                        <!-- Email -->
+                        <div>
+                            <label for="email">E-Mail:</label>
+                        </div>
+                        <div>
+                            <input style="padding: 7px; width: 70%;" type="email" name="email" id="email"
+                                placeholder="myname@example.com" required>
+                        </div>
+                        <br>
+                        <br>
+                        <!-- Phone Number -->
+                        <div>
+                            <label for="phonenumber">Phone Number:</label>
+                        </div>
+                        <div>
+                            <input style="padding: 7px; width: 70%;" type="tel" name="phonenumber" id="phonenumber"
+                                placeholder="xxxxxxxxxx" minlength="10" maxlength="10" required>
+                        </div>
+                        <br>
+                        <br>
+                        <!-- Donate Us -->
+                        <div>
+                            <label for="donateus">Donate Us:</label>
+                        </div>
+                        <div>
+                            0$<input style="width: 70%;" type="range" name="donateus" id="sld" min="0$" max="100$">100$
+                        </div>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <!-- Submit Button -->
+                        <div align="center">
+                            <input style="padding: 7px; width: 20%; background-color: red; color: white;" type="submit"
+                                name="submit" id="submit">
+                        </div>
+                    </td>
+                    <!-- Third Tabel Column -->
+                    <td width="35%" align="center">
+                        <!-- Meal Preference -->
+                        <div>
+                            <label for="mealpreference">Meal Preference:</label>
+                        </div>
+                        <div>
+                            <select style="padding: 7px; width: 74%;" name="mealpreference" id="mealpreference">
+                                <option value="1">Select</option>
+                                <option value="1">Vegetarian</option>
+                                <option value="1">Pescetarian</option>
+                                <option value="1">Lacto-Vegetarian</option>
+                                <option value="1">Ovo-Vegetarian</option>
+                                <option value="1">Vegan</option>
+                                <option value="1">Non-Vegetarian</option>
+                            </select>
+                        </div>
+                        <br>
+                        <br>
+                        <!-- Payment Mode -->
+                        <div>
+                            <label for="paymentmode">Payment Mode:</label>
+                        </div>
+                        <div>
+                            <!-- Cash Button -->
+                            <label for="cash"><input style="width: 10%; padding: 7px;" type="radio" name="paymentmode"
+                                    id="cash" value="Cash">Cash</label>
+                            <!-- Cheque Button -->
+                            <Label for="cheque"><input style="width: 10%; padding: 7px;" type="radio" name="paymentmode"
+                                    id="cheque" value="Cheque">Cheque</Label>
+                            <!-- Debit-Card Button -->
+                            <label for="debit-card"><input style="width: 10%; padding: 7px;" type="radio"
+                                    name="paymentmode" id="debit-card" value="Debit-card">Debit-Card</label>
+                        </div>
+                        <br>
+                        <br>
+                        <!-- DD/Cehque No. -->
+                        <div>
+                            <label for="dd/chequeno">DD/Cheque No.:</label>
+                        </div>
+                        <div>
+                            <input style="padding: 7px; width: 70%;" type="text" name="dd/chequeno" id="dd/chequeno"
+                                placeholder="Cheque Number">
+                        </div>
+                        <br>
+                        <br>
+                        <!-- Drawn On (Bank Name) -->
+                        <div>
+                            <label for="drawnon">Drawn On (Bank Name):</label>
+                        </div>
+                        <div>
+                            <input style="padding: 7px; width: 70%;" list="drawnon" name="bank names">
+                            <datalist id="drawnon">
+                                <option value="Bank of Baroda"></option>
+                                <option value="Bank of India"></option>
+                                <option value="Bank of Maharashtra"></option>
+                                <option value="Canara Bank"></option>
+                                <option value="Central Bank of India"></option>
+                                <option value="Indian Bank"></option>
+                                <option value="Indian Overseas Bank"></option>
+                                <option value="State Bank of India"></option>
+                                <option value="Punjab National Bank"></option>
+                                <option value="Union Bank of India"></option>
+                                <option value="Axis Bank Ltd."></option>
+                                <option value="City Union Bank Ltd."></option>
+                                <option value="HDFC Bank Ltd."></option>
+                                <option value="ICICI Bank Ltd."></option>
+                                <option value="Induslnd Bank Ltd."></option>
+                                <option value="YES Bank Ltd."></option>
+                                <option value="IDBI Bank Ltd."></option>
+                                <option value="Paytm Payments Bank Limited"></option>
+                                <option value="Kotak Mahindra Bank Ltd"></option>
+                                <option value="RBL Bank Ltd."></option>
+                            </datalist>
+                        </div>
+                        <br>
+                        <br>
+                        <!-- Payable At -->
+                        <div>
+                            <label for="payable at">Payable At:</label>
+                        </div>
+                        <div>
+                            <input style="padding: 7px; width: 70%;" type="text" name="payable at" id="payable at">
+                        </div>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <!-- Reset Button -->
+                        <div align="center">
+                            <input style="padding: 7px; width: 20%;" type="reset" name="reset" id="reset">
+                        </div>
+                    </td>
+                </form>
+            </div>
+        </tr>
+    </table>
+</body>
+
+</html>

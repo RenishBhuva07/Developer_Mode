@@ -1,0 +1,1221 @@
+/* -------------------------------------------HEADER IS HERE BRO-------------------------------------------------- */
+/* UNIVERSAL CSS START */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+/* UNIVERSAL CSS END */
+
+/* TOP NAV BAR START */
+header {
+    position: fixed;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+}
+
+main {
+    margin-top: 150px;
+
+}
+
+.topnavbar {
+    /* border: 1px solid; */
+    font-family: sans-serif;
+    font-size: 12px;
+    height: 20px;
+    padding: 9px 0px 9px 26px;
+}
+
+.topnavbar>ul>li>a {
+    color: black;
+}
+
+li {
+    padding: 0px 0px 0px 4px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.topnavbar ul li {
+    display: inline-block;
+}
+
+.topright {
+    float: right;
+}
+
+/* TOP NAV BAR END */
+
+/* MAIN HEADER BAR START */
+.mainheader {
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+}
+
+.lenskartlogo {
+    padding: 0px 0px 0px 30px;
+}
+
+.phonenumber {
+    padding: 0px 0px 0px 65px;
+}
+
+.searchbox {
+    padding: 0px 0px 0px 35px;
+    border: 1px solid;
+    border-radius: 4px;
+    margin-left: 30px;
+}
+
+.searchbox>img {
+    vertical-align: middle;
+}
+
+.search {
+    width: 540px;
+    padding: 8px 0px;
+    border: none;
+}
+
+.search:focus {
+    outline: none;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu-li {
+    padding-left: 30px;
+}
+
+.menu-li>a {
+    color: black;
+}
+
+.menu {
+    padding-left: 65px;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+/* MAIN HEADER BAR END */
+
+/* BOTTOM HEADER BAR START */
+.bottomheader {
+    /* border: 1px solid; */
+    display: flex;
+}
+
+.bottomheader1 {
+    /* border: 1px solid; */
+    border-radius: 5px;
+    background-color: #F7F7F7;
+    /* padding: 14px; */
+    margin-left: 29px;
+    padding: 0px 20px;
+
+
+}
+
+.bottomheader1>ul {
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+.li-hover {
+    line-height: 39px;
+}
+
+.li-hover:hover {
+    background-color: #00B5A5;
+}
+
+.td {
+    margin-left: 32px;
+}
+
+.bottomheader2 {
+    margin-left: 20px;
+}
+
+.bottomheader2>a {
+    font-family: sans-serif;
+    background: #00B5A5;
+    border-radius: 5px;
+    padding: 11px 4px;
+    color: white;
+    line-height: 40px;
+}
+
+.bottomheader3 {
+    margin-left: 5px;
+}
+
+.bottomheader3>a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: #050646;
+    border-radius: 5px;
+    background: #DCF3F9;
+    padding: 0px 19px;
+    line-height: 40px;
+}
+
+.bottomheader4 {
+    margin-left: 5px;
+}
+
+.bottomheader4>a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    color: #DFC684;
+    border-radius: 5px;
+    background: #010042;
+    padding: 6px 16px;
+    line-height: 40px;
+}
+
+/* BOTTOM HEADER BAR END */
+
+/* -------------------------------------------HEADER IS END BRO-------------------------------------------------- */
+
+/* -------------------------------------------MAIN IS START BRO-------------------------------------------------- */
+
+/* GLASS TYPE AND PHOTO SECTION START */
+.row-1 {
+    background-color: #F5F5F5;
+    display: flex;
+}
+
+.miniicon {
+    width: 100%;
+}
+
+.widget-title {
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.td-11 {
+    text-align: center;
+    border-radius: 5px;
+    margin: 20px 10px 20px 20px;
+    padding: 5px 5px 15px 5px;
+    background-color: white;
+}
+
+.td-12 {
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px 10px;
+    padding: 5px 5px 15px 5px;
+    background-color: white;
+}
+
+.td-13 {
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px 10px;
+    padding: 5px 5px 15px 5px;
+    background-color: white;
+}
+
+.td-14 {
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px 10px;
+    padding: 5px 5px 15px 5px;
+    background-color: white;
+}
+
+.td-15 {
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px 10px;
+    padding: 5px 5px 15px 5px;
+    background-color: white;
+}
+
+.td-16 {
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px 20px 20px 10px;
+    padding: 5px 5px 15px 5px;
+    background-color: white;
+}
+
+/* GLASS TYPE AND PHOTO SECTION END */
+
+/* MAIN BANNER BAR SECTION START */
+
+.main-banner img {
+    width: 100%;
+}
+
+/* MAIN BANNER BAR SECTION END */
+
+/* DO MORE BE MORE SECTION START */
+
+.domorebemore img {
+    width: 100%;
+}
+
+/* DO MORE BE MORE SECTION END */
+
+/* WEAR THE TREND SECTION START */
+
+.row-2 {
+    display: flex;
+}
+
+.wear {
+    width: 20%;
+    font-family: sans-serif;
+    /* position: relative; */
+    padding: 220px 0px 0px 60px;
+}
+
+.wear h2 {
+    font-size: 45px;
+    font-weight: lighter;
+}
+
+.row-3 {
+    display: flex;
+}
+
+.row-3>div {
+    padding: 40px;
+}
+
+.row-4 {
+    display: flex;
+}
+
+.row-4>div {
+    padding: 40px;
+}
+
+.trend {
+    width: 80%;
+}
+
+.trend-icon {
+    width: 100%;
+}
+
+.trend-title {
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
+
+.explore {
+    border: 1px solid;
+    border-radius: 7px;
+    background-color: #56b7c3;
+    color: white;
+    font-family: sans-serif;
+    font-size: large;
+    text-align: center;
+    padding: 10px;
+    margin: 25px 40px 0px;
+}
+
+/* WEAR THE TREND SECTION END */
+
+/* 70% OFF SECTION START */
+
+.off-70 {
+    padding: 50px 0px;
+}
+
+.off-70 img {
+    width: 100%;
+}
+
+/* 70% OFF SECTION END */
+
+/* AQUA COLOR CONTAC-LENSES SECTION START */
+
+.aqua {
+    position: relative;
+}
+
+h4 {
+    font-family: sans-serif;
+    font-size: 32px;
+    font-weight: lighter;
+    text-align: center;
+    /* margin-top: 10px; */
+}
+
+.aqua-head::before {
+    content: "";
+    border: 1px solid;
+    color: #cfcdcd;
+    width: 470px;
+    top: 60%;
+    left: 45px;
+    position: absolute;
+}
+
+.aqua-head::after {
+    content: "";
+    border: 1px solid;
+    color: #cfcdcd;
+    width: 470px;
+    top: 60%;
+    right: 45px;
+    position: absolute;
+}
+
+.coloricon {
+    width: 80%;
+    margin: 30px 150px 100px 150px;
+}
+
+/* AQUA COLOR CONTAC-LENSES SECTION END */
+
+/* PERFECT FIT SECTION START */
+
+.row-6 {
+    position: relative;
+}
+
+.perfect-head::before {
+    content: "";
+    border: 1px solid;
+    color: #cfcdcd;
+    width: 590px;
+    top: 60%;
+    left: 45px;
+    position: absolute;
+}
+
+.perfect-head::after {
+    content: "";
+    border: 1px solid;
+    color: #cfcdcd;
+    width: 590px;
+    top: 60%;
+    right: 45px;
+    position: absolute;
+}
+
+.perfect-fit {
+    display: flex;
+    margin: 20px 130px 60px;
+}
+
+.eye-power {
+    width: 50.3%;
+    margin: 10px;
+}
+
+.blu-sun-digi {
+    width: 49.7%;
+    margin: 10px;
+}
+
+.fit {
+    width: 100%;
+    margin: 10px;
+}
+
+/* PERFECT FIT SECTION END */
+
+/* OJOS WEAR SECTION START */
+
+.oj {
+    position: relative;
+    /* margin: 30px 0px; */
+}
+
+.ojos-head::before {
+    content: "";
+    border: 1px solid;
+    color: #cfcdcd;
+    width: 400px;
+    top: 60%;
+    left: 45px;
+    position: absolute;
+}
+
+.ojos-head::after {
+    content: "";
+    border: 1px solid;
+    color: #cfcdcd;
+    width: 400px;
+    top: 60%;
+    right: 45px;
+    position: absolute;
+}
+
+.os {
+    margin: 40px 150px 80px 150px;
+}
+
+.ojos-icon {
+    width: 100%;
+}
+
+/* OJOS WEAR SECTION END */
+
+/* CONTACT LENSES AND MORE SECTION START */
+
+.contact {
+    position: relative;
+}
+
+.contact-head::before {
+    content: "";
+    border: 1px solid;
+    color: #cfcdcd;
+    width: 560px;
+    top: 60%;
+    left: 45px;
+    position: absolute;
+}
+
+.contact-head::after {
+    content: "";
+    border: 1px solid;
+    color: #cfcdcd;
+    width: 560px;
+    top: 60%;
+    right: 45px;
+    position: absolute;
+}
+
+.lenses {
+    display: flex;
+    margin: 30px 150px 80px 150px;
+}
+
+.lens-icon {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.icons {
+    margin: 10px;
+}
+
+/* CONTACT LENSES AND MORE SECTION END */
+
+/* BUY IT YOUR WAY SECTION START */
+
+.buy-it {
+    position: relative;
+}
+
+.buy-it-head::before {
+    content: "";
+    border: 1px solid;
+    color: #cfcdcd;
+    width: 640px;
+    top: 60%;
+    left: 45px;
+    position: absolute;
+}
+
+.buy-it-head::after {
+    content: "";
+    border: 1px solid;
+    color: #cfcdcd;
+    width: 640px;
+    top: 60%;
+    right: 45px;
+    position: absolute;
+}
+
+.your-way {
+    display: flex;
+    margin: 30px 50px 80px 50px;
+}
+
+.your {
+    width: 50%;
+    margin: 10px;
+}
+
+.way {
+    width: 50%;
+    margin: 10px;
+}
+
+.your-way-icons {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* BUY IT YOUR WAY SECTION END */
+
+/* OUR BRANDS SECTION START */
+
+/* VINCENT CHASE START */
+/* ROW-10 START */
+.row-10 {
+    position: relative;
+}
+
+.row-10-head::before {
+    content: "";
+    border: 1px solid;
+    color: #cfcdcd;
+    width: 670px;
+    top: 60%;
+    left: 45px;
+    position: absolute;
+}
+
+.row-10-head::after {
+    content: "";
+    border: 1px solid;
+    color: #cfcdcd;
+    width: 670px;
+    top: 60%;
+    right: 45px;
+    position: absolute;
+}
+
+/* ROW-10 END */
+
+/* ROW-11 START */
+.row-11 {
+    margin: 50px 0px;
+}
+
+.row-11-icon {
+    width: 100%;
+}
+
+/* ROW-11 END */
+
+/* ROW-12 START */
+.row-12 {
+    display: flex;
+    /* text-decoration: underline 1px solid; */
+}
+
+.eg-head {
+    border-bottom: 1px solid #cfcdcd;
+    font-family: sans-serif;
+    font-size: 27px;
+    width: 60%;
+    margin-left: 150px;
+}
+
+.eg-range {
+    border-bottom: 1px solid #cfcdcd;
+    font-family: sans-serif;
+    font-size: 20px;
+    width: 40%;
+    margin-right: 150px;
+    text-align: end;
+}
+
+.eg-range>a {
+    color: #329c92;
+}
+
+.eg-range>a:hover {
+    color: #2352A6;
+}
+
+/* ROW-12 END */
+
+/* ROW-13 START */
+.row-13 {
+    display: flex;
+    justify-content: center;
+    /* margin: 20px; */
+}
+
+.td-131 {
+    margin: 30px;
+}
+
+.eg-icons {
+    width: 100%;
+}
+
+/* ROW-13 END */
+
+/* ROW-14 START */
+.row-14 {
+    display: flex;
+    justify-content: center;
+}
+
+.td-141 {
+    margin: 30px;
+}
+
+/* ROW-14 END */
+
+/* ROW-15 START */
+.row-15 {
+    display: flex;
+}
+
+.sg-head {
+    border-bottom: 1px solid #cfcdcd;
+    font-family: sans-serif;
+    font-size: 27px;
+    width: 60%;
+    margin-left: 150px;
+}
+
+.sg-range {
+    border-bottom: 1px solid #cfcdcd;
+    font-family: sans-serif;
+    font-size: 20px;
+    width: 40%;
+    margin-right: 150px;
+    text-align: end;
+}
+
+.sg-range>a {
+    color: #329c92;
+}
+
+.sg-range>a:hover {
+    color: #2352A6;
+}
+
+/* ROW-16 START */
+.row-16 {
+    display: flex;
+    justify-content: center;
+}
+
+.td-161 {
+    margin: 30px;
+}
+
+.sg-icons {
+    width: 100%;
+}
+
+/* ROW-16 END */
+
+/* ROW-17 START */
+.row-17 {
+    display: flex;
+    justify-content: center;
+}
+
+.td-171 {
+    margin: 30px;
+}
+
+/* ROW-17 END */
+
+/* ROW-18 START */
+.row-18-icon {
+    width: 100%;
+    margin: 30px 0px 50px;
+}
+
+/* ROW-18 END */
+
+/* ROW-19 START */
+.row-19 {
+    display: flex;
+}
+
+/* ROW-19 END */
+
+/* ROW-20 START */
+.row-20 {
+    display: flex;
+    justify-content: center;
+}
+
+.td-201 {
+    margin: 30px;
+}
+
+/* ROW-20 END */
+
+/* ROW-21 START */
+.row-21 {
+    display: flex;
+    justify-content: center;
+}
+
+.td-211 {
+    margin: 30px;
+}
+
+/* ROW-21 END */
+
+/* ROW-22 START */
+.row-22 {
+    display: flex;
+}
+
+/* ROW-22 END */
+
+/* ROW-23 START */
+.row-23 {
+    display: flex;
+    justify-content: center;
+}
+
+.td-231 {
+    margin: 30px;
+}
+
+/* ROW-23 END */
+
+/* ROW-24 START */
+.row-24 {
+    display: flex;
+    justify-content: center;
+}
+
+.td-241 {
+    margin: 30px;
+}
+
+/* ROW-24 END */
+/* VINCENT CHASE END */
+
+/* LENSKART AIR START */
+/* ROW-25 START */
+.row-25-icon {
+    width: 100%;
+    margin: 30px 0px 50px;
+}
+
+/* ROW-25 END */
+
+/* ROW-26 START */
+.row-26 {
+    display: flex;
+}
+
+/* ROW-26 END */
+
+/* ROW-27 START */
+.row-27 {
+    display: flex;
+    justify-content: center;
+}
+
+.td-271 {
+    margin: 30px;
+}
+
+/* ROW-27 END */
+
+/* ROW-28 START */
+.row-28 {
+    display: flex;
+    justify-content: center;
+}
+
+.td-281 {
+    margin: 30px;
+}
+
+/* ROW-28 END */
+/* LENSKART AIR END */
+
+/* LENSKART READERS START */
+/* ROW-29 START */
+.row-29-icon {
+    width: 100%;
+    margin: 30px 0px 50px;
+}
+
+/* ROW-29 END */
+/* ROW-30 START */
+.row-30 {
+    display: flex;
+}
+
+/* ROW-30 END */
+/* ROW-31 START */
+.row-31 {
+    display: flex;
+    justify-content: center;
+}
+
+.td-311 {
+    margin: 30px;
+}
+
+/* ROW-31 END */
+/* ROW-32 START */
+.row-32 {
+    display: flex;
+    justify-content: center;
+}
+
+.td-321 {
+    margin: 30px;
+}
+
+/* ROW-32 END */
+/* LENSKART READERS END */
+
+/* HOOPER - START */
+/* ROW-33 START */
+.row-33-icon {
+    width: 100%;
+    margin: 30px 0px 50px;
+}
+
+/* ROW-33 END */
+
+.hop-pcbl {
+    margin-bottom: 70px;
+}
+
+/* ROW-34 START */
+.row-34 {
+    display: flex;
+}
+
+.pcbl-head {
+    border-bottom: 1px solid #cfcdcd;
+    font-family: sans-serif;
+    font-size: 27px;
+    width: 60%;
+    margin-left: 150px;
+}
+
+.pcbl-range {
+    border-bottom: 1px solid #cfcdcd;
+    font-family: sans-serif;
+    font-size: 20px;
+    width: 40%;
+    margin-right: 150px;
+    text-align: end;
+}
+
+.pcbl-range>a {
+    color: #329c92;
+}
+
+.pcbl-range>a:hover {
+    color: #2352A6;
+}
+
+/* ROW-34 END */
+
+/* ROW-35 START */
+.row-35 {
+    display: flex;
+    justify-content: center;
+}
+
+.td-351 {
+    margin: 30px;
+}
+
+/* ROW-35 END */
+/* ROW-36 START */
+.row-36 {
+    display: flex;
+    justify-content: center;
+}
+
+.td-361 {
+    margin: 30px;
+}
+
+/* ROW-36 END */
+/* ROW-37 START */
+.row-37 {
+    display: flex;
+}
+
+.zpcbl-head {
+    border-bottom: 1px solid #cfcdcd;
+    font-family: sans-serif;
+    font-size: 27px;
+    width: 60%;
+    margin-left: 150px;
+}
+
+.zpcbl-range {
+    border-bottom: 1px solid #cfcdcd;
+    font-family: sans-serif;
+    font-size: 20px;
+    width: 40%;
+    margin-right: 150px;
+    text-align: end;
+}
+
+.zpcbl-range>a {
+    color: #329c92;
+}
+
+.zpcbl-range>a:hover {
+    color: #2352A6;
+}
+
+/* ROW-37 END */
+/* ROW-38 START */
+.row-38 {
+    display: flex;
+    justify-content: center;
+}
+
+.td-381 {
+    margin: 30px;
+}
+
+/* ROW-38 END */
+/* ROW-39 START */
+.row-39 {
+    display: flex;
+    justify-content: center;
+}
+
+.td-391 {
+    margin: 30px;
+}
+
+/* ROW-39 END */
+/* HOOPER - END */
+
+/* AQUA LENS START */
+/* ROW-40 START */
+.row-40-icon {
+    width: 100%;
+    margin: 30px 0px 50px;
+}
+
+/* ROW-40 END */
+/* ROW-41 START */
+.row-41 {
+    display: flex;
+}
+
+.cl-head {
+    border-bottom: 1px solid #cfcdcd;
+    font-family: sans-serif;
+    font-size: 27px;
+    width: 60%;
+    margin-left: 150px;
+}
+
+.cl-range {
+    border-bottom: 1px solid #cfcdcd;
+    font-family: sans-serif;
+    font-size: 20px;
+    width: 40%;
+    margin-right: 150px;
+    text-align: end;
+}
+
+.cl-range>a {
+    color: #329c92;
+}
+
+.cl-range>a:hover {
+    color: #2352A6;
+}
+
+/* ROW-41 END */
+/* ROW-42 START */
+.row-42 {
+    display: flex;
+    justify-content: center;
+}
+
+.td-421 {
+    margin: 30px;
+}
+
+/* ROW-42 END */
+/* ROW-43 START */
+.row-43 {
+    display: flex;
+    justify-content: center;
+}
+
+.td-431 {
+    margin: 30px;
+}
+
+/* ROW-43 END */
+/* ROW-44 START */
+.row-44 {
+    display: flex;
+}
+
+.ccl-head {
+    border-bottom: 1px solid #cfcdcd;
+    font-family: sans-serif;
+    font-size: 27px;
+    width: 60%;
+    margin-left: 150px;
+}
+
+.ccl-range {
+    border-bottom: 1px solid #cfcdcd;
+    font-family: sans-serif;
+    font-size: 20px;
+    width: 40%;
+    margin-right: 150px;
+    text-align: end;
+}
+
+.ccl-range>a {
+    color: #329c92;
+}
+
+.ccl-range>a:hover {
+    color: #2352A6;
+}
+
+/* ROW-44 END */
+/* ROW-45 START */
+.row-45 {
+    display: flex;
+    justify-content: center;
+}
+
+.td-451 {
+    margin: 30px;
+}
+
+/* ROW-45 END */
+/* ROW-46 START */
+.row-46 {
+    display: flex;
+    justify-content: center;
+}
+
+.td-461 {
+    margin: 30px;
+}
+
+/* ROW-46 END */
+/* AQUA LENS END */
+
+/* WHATSAPP BANNER START */
+/* ROW-47 START */
+.row-47-icon {
+    width: 100%;
+    margin: 50px 0px;
+}
+
+/* ROW-47 END */
+/* WHATSAPP BANNER END */
+/* OUR BRANDS SECTION END */
+
+
+/* OUR BLOG SECTION START */
+/* ROW-48 START */
+.row-48 {
+    position: relative;
+}
+
+.row-48-head::before {
+    content: "";
+    border: 1px solid;
+    color: #cfcdcd;
+    width: 670px;
+    top: 60%;
+    left: 45px;
+    position: absolute;
+}
+
+.row-48-head::after {
+    content: "";
+    border: 1px solid;
+    color: #cfcdcd;
+    width: 670px;
+    top: 60%;
+    right: 45px;
+    position: absolute;
+}
+
+/* ROW-48 END */
+
+/* ROW-49 START */
+.row-49 {
+    margin: 40px 150px 80px 150px;
+}
+
+.row-49-icon {
+    width: 100%;
+}
+
+/* ROW-49 END */
+/* OUR BLOG SECTION END */
+
+/* MEET OUR HAPPY CUSTOMERS SECTION START */
+.happy-customers {
+    background-color: #FFF092;
+    padding: 50px 0px 1px 0px;
+}
+
+.happy-text>h2 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 32px;
+    font-weight: lighter;
+}
+
+.happy-vids {
+    display: flex;
+    margin: 20px 10px 70px 10px;
+}
+
+.Mar {
+    border: 1px solid;
+    margin: 10px;
+    width: 100%;
+}
+
+/* MEET OUR HAPPY CUSTOMERS SECTION END */
+
+/* -------------------------------------------MAIN IS END BRO-------------------------------------------------- */
+
+
+/* -------------------------------------------FOOTER IS START BRO-------------------------------------------------- */
+
+/* ROW-50 START */
+/* ROW-50 END */
+/* ROW-51 START */
+/* ROW-51 END */
+/* ROW-52 START */
+/* ROW-52 END */
+/* ROW-53 START */
+/* ROW-53 END */
+/* ROW-54 START */
+/* ROW-54 END */
+/* ROW-55 START */
+/* ROW-55 END */
+/* ROW-56 START */
+/* ROW-56 END */
+/* ROW-57 START */
+/* ROW-57 END */
+
+/* -------------------------------------------FOOTER IS END BRO-------------------------------------------------- */

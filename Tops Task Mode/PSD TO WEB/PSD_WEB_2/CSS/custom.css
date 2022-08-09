@@ -1,0 +1,503 @@
+/* ------------------------------GLOBLE CSS IS START BRO------------------------------ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffece1;
+    font-family: sans-serif;
+}
+
+/* div {
+    border: 1px solid;
+} */
+
+.container {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    width: 100%;
+}
+
+.col-50 {
+    width: 50%;
+}
+
+.just-sp-btn {
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+nav .navbar li {
+    display: inline-block;
+}
+
+nav .navbar li a {
+    padding: 20px;
+    font-size: 20px;
+    line-height: 143px;
+    color: #429583;
+}
+
+nav .navbar li a:hover {
+    background-color: #429583;
+    color: #ffece1;
+}
+
+h2 {
+    color: #F87004;
+    font-size: 112px;
+    line-height: 107px;
+}
+
+.cream {
+    color: #ffece1;
+}
+
+.btns {
+    font-size: 19px;
+    /* line-height: 39px; */
+    background-color: #429583;
+    border-radius: 10px;
+    padding: 7px 15px;
+    border: 3px solid #429583;
+    color: #ffece1;
+}
+
+.btns:hover {
+    color: #429583;
+    background-color: #ffece1;
+}
+
+.btns-em {
+    margin: 0px 20px;
+    padding: 10px 15px;
+    border: 3px solid #429583;
+    color: #429583;
+    border-radius: 10px;
+}
+
+.btns-em:hover {
+    color: #ffece1;
+    background-color: #429583;
+}
+
+.icon:hover {
+    background-color: #429583;
+    color: #ffece1;
+}
+
+h5 {
+    font-size: 17px;
+    color: #ffece1;
+}
+
+h3 {
+    font-size: 29px;
+    color: #F87004;
+}
+
+h4 {
+    font-size: 19px;
+    color: #429583;
+    /* text-align: center; */
+}
+
+h6 {
+    font-weight: lighter;
+    font-size: 12px;
+    color: #ffece1;
+    text-align: center;
+}
+
+.options {
+    width: 91%;
+    display: flex;
+}
+
+.col-25 {
+    width: 25%;
+}
+
+.l-height {
+    line-height: 50px;
+}
+
+.lighter {
+    font-weight: lighter;
+}
+
+.col {
+    padding: 80px 10px;
+    background-color: #ffece1;
+    border-radius: 30px;
+}
+
+.col-options {
+    background-color: #ffece1;
+    border-radius: 15px;
+}
+
+.orange {
+    color: #F87004;
+}
+
+.option-icon {
+    padding: 50px;
+}
+
+.foot-col h3 {
+    font-size: 25px;
+    color: #ffece1;
+    /* font-weight: lighter; */
+}
+
+/* MARGIN DEPARTMENT START */
+
+.my-11 {
+    margin-top: 6em;
+    margin-bottom: 6em;
+}
+
+.my-13 {
+    margin-top: 7em;
+    margin-bottom: 7em;
+}
+
+.my-7 {
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+
+.my-5 {
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+
+.my-3 {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.mt-27 {
+    margin-top: 14em;
+}
+
+.mt-13 {
+    margin-top: 7em;
+}
+
+.mt-20 {
+    margin-top: 10.5em;
+}
+
+.mt-21 {
+    margin-top: 11em;
+}
+
+.mt-8 {
+    margin-top: 4.5em;
+}
+
+.mt-6 {
+    margin-top: 3.5em;
+}
+
+.mt-2 {
+    margin-top: 1.5em;
+}
+
+.mt-1 {
+    margin-top: 1em;
+}
+
+/* MARGIN DEPARTMENT END */
+
+/* PADDING DEPARTMENT START */
+.py-39 {
+    padding-top: 20em;
+    padding-bottom: 20em;
+}
+
+.py-14 {
+    padding-top: 7.5em;
+    padding-bottom: 7.5em;
+}
+
+.py-13 {
+    padding-top: 7em;
+    padding-bottom: 7em;
+}
+
+/* PADDING DEPARTMENT END */
+
+/* ------------------------------GLOBLE CSS IS END BRO------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------HEADER IS START BRO------------------------------ */
+/* MAIN MENU START */
+.main-menu {
+    height: 150px;
+    filter: drop-shadow(0px 10px 17px rgba(146, 127, 116, 0.21));
+    background-color: #ffece1;
+}
+
+.cnm-logo {
+    margin-top: 40px;
+}
+
+.btnbar li {
+    display: inline-block;
+}
+
+.icon {
+    padding: 10px;
+    font-size: 20px;
+    line-height: 143px;
+    color: #429583;
+}
+
+/* MAIN MENU END */
+
+/* ------------------------------HEADER IS END BRO------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------MAIN IS START BRO------------------------------ */
+/* WORRY FREE MEAL PLANS SECTION START */
+
+p {
+    font-size: 16px;
+    color: #429583;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.meal-plans-text {
+    overflow: hidden;
+}
+
+.syj-buttons {
+    line-height: 90px;
+}
+
+.meal-options {
+    width: 110%;
+    padding: 30px;
+    border-radius: 30px;
+    display: flex;
+    background-color: #F87004;
+}
+
+.vertext {
+    line-height: 100px;
+    margin-top: 32px;
+    writing-mode: vertical-lr;
+    transform: rotateZ(180deg);
+}
+
+.arrow img {
+    padding-top: 90px;
+}
+
+/* WORRY FREE MEAL PLANS SECTION END */
+
+/* OUR FAVORITES SECTION START */
+.our-favorites-wrapper {
+    background-color: #429583;
+}
+
+/* OUR FAVORITES SECTION END */
+
+/* APRIL 2022 MEAL PLANS SECTION START */
+.april-2022-banner {
+    margin: 0 10% 0 0;
+}
+
+.april-2022-text {
+    width: 95%;
+}
+
+.menu-1 {
+    margin-right: 10px;
+}
+
+.menu-2 {
+    margin-left: 10px;
+}
+
+/* APRIL 2022 MEAL PLANS SECTION END */
+
+/* RECIPES SECTION START */
+
+
+.recipes-banner {
+    margin: 0 0 0 10%;
+}
+
+.menu {
+    margin: 10px;
+}
+
+/* RECIPES SECTION END */
+
+/* OUR PROCESS SECTION START */
+.our-process-wrapper {
+    background-color: #429583;
+}
+
+.col-options {
+    padding: 40px;
+}
+
+/* OUR PROCESS SECTION END */
+
+/* MEAL PLANS YOU LOVE SECTION START */
+.you-love-wrapper {
+    background: linear-gradient(90deg, #ffece1 72%, #F87004 28%);
+}
+
+.you-love-banner img {
+    width: 110%;
+}
+
+/* MEAL PLANS YOU LOVE SECTION END */
+
+/* WHAT THEY SAY SECTION START */
+.what-they-say-wrapper {
+    background-color: #429583;
+}
+
+.feedback-icon {
+    padding: 45px;
+}
+
+.col-feedback {
+    margin: 35px;
+}
+
+/* WHAT THEY SAY SECTION END */
+
+/* MEAL PLANS MADE FOR YOU SECTION START */
+.made-for-you-wrapper {
+    overflow: hidden;
+    position: relative;
+}
+
+.made-for-you-wrap img {
+    width: 40%;
+    position: absolute;
+}
+
+.glazed {
+    right: -175px;
+    top: 35px;
+}
+
+.green {
+    left: -160px;
+    bottom: -25px;
+}
+
+/* MEAL PLANS MADE FOR YOU SECTION END */
+
+/* ------------------------------MAIN IS END BRO------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------FOOTER IS START BRO------------------------------ */
+.footer-wrapper {
+    background-color: #429583;
+}
+
+.foot-col li {
+    list-style: none;
+    margin: 20px 0;
+}
+
+.foot-col-icons li {
+    list-style: none;
+    margin: 20px 0;
+}
+
+.foot-col li a {
+    color: #ffece1;
+    font-size: 19px;
+}
+
+.foot-col-icons li a {
+    color: #ffece1;
+    font-size: 19px;
+}
+
+.foot-col li a:hover {
+    background-color: #ffece1;
+    color: #429583;
+    padding: 2px 0;
+}
+
+.Email {
+    width: 318px;
+
+    background-color: #429583;
+    color: #ffece1;
+
+}
+
+.submit {
+    background-color: #ffece1;
+    color: #429583;
+    font-weight: bold;
+}
+
+.submit:hover {
+    background-color: #429583;
+    color: #ffece1;
+}
+
+.foot-btn {
+    border: 3px solid #ffece1;
+    padding: 8px 10px;
+    border-radius: 14px;
+}
+
+::placeholder {
+    color: #ffece1;
+    opacity: 1;
+}
+
+.iconbar li {
+    display: inline-block;
+}
+
+.facebook {
+    background-color: #ffece1;
+    color: #429583;
+    font-size: 25px;
+    padding: 5px 5px 0 10px;
+}
+
+.fs-30 {
+    font-size: 30px;
+}
+
+.iconbar li a {
+    margin: 0 10px;
+}
+
+/* ------------------------------FOOTER IS END BRO------------------------------ */

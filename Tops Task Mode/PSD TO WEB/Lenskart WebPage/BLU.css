@@ -1,0 +1,666 @@
+/* -------------------------------------------HEADER IS HERE BRO-------------------------------------------------- */
+/* UNIVERSAL CSS START */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+/* UNIVERSAL CSS END */
+
+/* TOP NAV BAR START */
+header {
+    position: fixed;
+    top: 0;
+    background-color: white;
+}
+
+main {
+    margin-top: 150px;
+
+}
+
+.topnavbar {
+    /* border: 1px solid; */
+    font-family: sans-serif;
+    font-size: 12px;
+    height: 20px;
+    padding: 9px 0px 9px 26px;
+}
+
+.topnavbar>ul>li>a {
+    color: black;
+}
+
+li {
+    padding: 0px 0px 0px 4px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.topnavbar ul li {
+    display: inline-block;
+}
+
+.topright {
+    float: right;
+}
+
+/* TOP NAV BAR END */
+
+/* MAIN HEADER BAR START */
+.mainheader {
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+}
+
+.lenskartlogo {
+    padding: 0px 0px 0px 30px;
+}
+
+.phonenumber {
+    padding: 0px 0px 0px 65px;
+}
+
+.searchbox {
+    padding: 0px 0px 0px 35px;
+    border: 1px solid;
+    border-radius: 4px;
+    margin-left: 30px;
+}
+
+.searchbox>img {
+    vertical-align: middle;
+}
+
+.search {
+    width: 540px;
+    padding: 8px 0px;
+    border: none;
+}
+
+.search:focus {
+    outline: none;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu-li {
+    padding-left: 30px;
+}
+
+.menu-li>a {
+    color: black;
+}
+
+.menu {
+    padding-left: 65px;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+/* MAIN HEADER BAR END */
+
+/* BOTTOM HEADER BAR START */
+.bottomheader {
+    /* border: 1px solid; */
+    display: flex;
+}
+
+.bottomheader1 {
+    /* border: 1px solid; */
+    border-radius: 5px;
+    background-color: #F7F7F7;
+    /* padding: 14px; */
+    margin-left: 29px;
+    padding: 0px 10px;
+
+
+}
+
+.bottomheader1>ul {
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+.li-hover {
+    line-height: 39px;
+}
+
+.li-hover:hover {
+    background-color: #00B5A5;
+}
+
+.td {
+    margin-left: 35px;
+}
+
+.bottomheader2 {
+    margin-left: 15px;
+}
+
+.bottomheader2>a {
+    font-family: sans-serif;
+    background: #00B5A5;
+    border-radius: 5px;
+    padding: 11px 4px;
+    color: white;
+    line-height: 40px;
+}
+
+.bottomheader3 {
+    margin-left: 5px;
+}
+
+.bottomheader3>a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: #050646;
+    border-radius: 5px;
+    background: #DCF3F9;
+    padding: 0px 19px;
+    line-height: 40px;
+}
+
+.bottomheader4 {
+    margin-left: 5px;
+}
+
+.bottomheader4>a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    color: #DFC684;
+    border-radius: 5px;
+    background: #010042;
+    padding: 6px 16px;
+    line-height: 40px;
+}
+
+/* BOTTOM HEADER BAR END */
+
+/* -------------------------------------------HEADER IS END BRO-------------------------------------------------- */
+
+
+/* -------------------------------------------MAIN IS HERE BRO-------------------------------------------------- */
+
+/* BANNER SECTION START */
+.banner {
+    margin: 10px;
+}
+
+/* BANNER SECTION END */
+
+/* BLUE SECTION START */
+.BH {
+    display: flex;
+    margin: 10PX;
+}
+
+.blue {
+    width: 50%;
+}
+
+.why {
+    width: 50%;
+    /* justify-content: center; */
+    text-align: center;
+    font-family: sans-serif;
+    color: #212F70;
+    text-transform: uppercase;
+    line-height: 40px;
+}
+
+/* BLUE SECTION END */
+
+/* DID YOU KNOW SECTION START */
+
+.did {
+    margin: 50px;
+}
+
+/* DID YOU KNOW SECTION END */
+
+/* BLU LENSES SECTION START */
+
+.blulens {
+    display: flex;
+    margin: 10px;
+}
+
+.bluicon {
+    vertical-align: middle;
+}
+
+.BLU {
+    padding-left: 70px;
+    line-height: 80px;
+    width: 50%;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #212F70;
+}
+
+.LENS {
+    width: 50%;
+}
+
+/* BLU LENSES SECTION END */
+
+/* BLU DESK SECTION START */
+
+.desk {
+    margin: 10px;
+}
+
+/* BLU DESK SECTION END */
+
+/* BUTTONS SECTION START */
+
+.button-wrapper {
+    display: flex;
+    padding: 50px;
+}
+
+.button1 {
+    margin-right: 10px;
+    text-align: end;
+    width: 50%;
+}
+
+.buttonpad>a {
+    color: white;
+}
+
+.button2 {
+    margin-left: 10px;
+    width: 50%;
+}
+
+.buttonpad {
+    border: none;
+    font-size: medium;
+    background: linear-gradient(-45deg, #0072BC 0, #232176 100%);
+    font-weight: bold;
+    padding: 20px 20px;
+    color: white;
+}
+
+.buttonpad:hover {
+    background-color: #202D77;
+}
+
+/* BUTTONS SECTION END */
+
+/* SHOPPING SECTION START */
+.who {
+    padding: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+    color: #212F70;
+}
+
+.shopping {
+    display: flex;
+    margin: 10px;
+}
+
+.age {
+    padding: 40px;
+}
+
+/* SHOPPING SECTION END */
+
+/* FRAME SHAPE SECTION START */
+
+.frameshape-heading {
+    padding: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+    color: #212F70;
+}
+
+.frameshape-row {
+    display: flex;
+    padding: 10px;
+}
+
+.frameshape-td1 {
+    border: 1px solid;
+    width: 55%;
+    margin: 10px;
+}
+
+.td1-button {
+    border: none;
+    font-size: 18px;
+    background-color: white;
+    width: 100%;
+    padding: 15px;
+}
+
+.td1-button>a {
+    color: black;
+}
+
+.td1-button:hover {
+    background-color: #202D77;
+}
+
+.td1-button:hover>a {
+    color: white;
+}
+
+.td21 {
+    border: 1px solid;
+    /* height: 50%; */
+    text-align: center;
+}
+
+.td21-button {
+    border: none;
+    font-size: 18px;
+    background-color: white;
+    width: 100%;
+    padding: 15px;
+}
+
+.td21-button>a {
+    color: black;
+}
+
+.td21-button:hover {
+    background-color: #202D77;
+}
+
+.td21-button:hover>a {
+    color: white;
+}
+
+.frameshape-td2 {
+    width: 45%;
+    padding: 10px;
+}
+
+.td22 {
+    border: 1px solid;
+    margin-top: 53px;
+    height: 46.5%;
+    text-align: center;
+}
+
+.td22-button {
+    border: none;
+    font-size: 18px;
+    background-color: white;
+    width: 100%;
+    padding: 15px;
+}
+
+.td22-button>a {
+    color: black;
+}
+
+.td22-button:hover {
+    background-color: #202D77;
+}
+
+.td22-button:hover>a {
+    color: white;
+}
+
+/* FRAME SHAPE SECTION END */
+
+/* JUST SHOW SECTION START */
+.justshow {
+    display: flex;
+    padding: 10px;
+}
+
+.just {
+    border: 1px solid;
+    width: 40%;
+    margin: 10px 10px 10px 10px;
+}
+
+.just-button {
+    border: none;
+    font-size: 18px;
+    background-color: white;
+    width: 100%;
+    padding: 15px;
+}
+
+.just-button>a {
+    color: black;
+}
+
+.just-button:hover {
+    background-color: #202D77;
+}
+
+.just-button:hover>a {
+    color: white;
+}
+
+.show {
+    border: 1px solid;
+    width: 60%;
+    margin: 10px;
+}
+
+.show-button {
+    border: none;
+    font-size: 18px;
+    background-color: white;
+    width: 100%;
+    padding: 16px;
+}
+
+.show-button>a {
+    color: black;
+}
+
+.show-button:hover {
+    background-color: #202D77;
+}
+
+.show-button:hover>a {
+    color: white;
+}
+
+/* JUST SHOW SECTION END */
+
+/* FIRST KIDS SECTION START */
+
+.firstkids {
+    display: flex;
+    padding: 10px;
+}
+
+.first {
+    border: 1px solid;
+    width: 50%;
+    margin: 10px;
+}
+
+.first-button {
+    border: none;
+    font-size: 18px;
+    background-color: white;
+    width: 100%;
+    padding: 15px;
+}
+
+.first-button>a {
+    color: black;
+}
+
+.first-button:hover {
+    background-color: #202D77;
+}
+
+.first-button:hover>a {
+    color: white;
+}
+
+.kids {
+    border: 1px solid;
+    width: 50%;
+    margin: 10px;
+}
+
+.kids-button {
+    border: none;
+    font-size: 18px;
+    background-color: white;
+    width: 100%;
+    padding: 15px;
+}
+
+.kids-button>a {
+    color: black;
+}
+
+.kids-button:hover {
+    background-color: #202D77;
+}
+
+.kids-button:hover>a {
+    color: white;
+}
+
+/* FIRST KIDS SECTION END */
+
+/* BLU REVIEWS SECTION START */
+
+.blureviewtext {
+    padding: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+    color: #212F70;
+}
+
+.blureviewYou {
+    display: flex;
+    margin: 10px 10px 70px 10px;
+    /* justify-content: space-around; */
+}
+
+.Mar {
+    border: 1px solid;
+    margin: 10px;
+    width: 100%;
+}
+
+/* BLU REVIEWS SECTION END */
+
+/* -------------------------------------------MAIN IS END BRO-------------------------------------------------- */
+
+
+/* -------------------------------------------FOOTER IS HERE BRO-------------------------------------------------- */
+
+.footbar {
+    font-family: sans-serif;
+    display: flex;
+    background-color: #000042;
+    color: white;
+    padding: 60px;
+    /* justify-content: space-around; */
+}
+
+.ftd2 {
+    padding-left: 100px;
+}
+
+.ftd3 {
+    padding-left: 120px;
+}
+
+.ftd4 {
+    padding: 50px 0px 0px 450px;
+    text-align: center;
+}
+
+.ftd4-1 {
+    margin-bottom: 20px;
+}
+
+.ftd1>ul>li {
+    padding: 10px;
+}
+
+.ftd2>ul>li {
+    padding: 10px;
+}
+
+.ftd3>ul>li {
+    padding: 10px;
+}
+
+.f-s-l {
+    font-size: x-large;
+}
+
+.f-s-s {
+    font-size: 15px;
+}
+
+.footbar-bottom {
+    display: flex;
+    font-family: sans-serif;
+    background-color: #000042;
+    /* color: white; */
+    padding: 25px;
+}
+
+.justify {
+    margin-left: 35px;
+}
+
+.f-s {
+    color: white;
+}
+
+.f-s-l>a {
+    color: white;
+}
+
+.f-s-s>a {
+    color: white;
+}
+
+.footbar1 {
+    width: 50%;
+}
+
+.footbar2 {
+    width: 50%;
+    padding-left: 650px;
+}
+
+.footbar1>ul {
+    display: flex;
+}
+
+.footbar2>ul {
+    display: flex;
+}
+
+/* -------------------------------------------FOOTER IS END BRO-------------------------------------------------- */

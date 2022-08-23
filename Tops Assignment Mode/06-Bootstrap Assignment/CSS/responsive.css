@@ -1,0 +1,148 @@
+.header_middle form input[type="search"] {
+    width: 79%;
+}
+
+.header_middle form input[type="submit"] {
+    width: 15%;
+}
+
+.elite_bag_logo {
+    position: absolute;
+    font-size: 20px;
+    top: 55px;
+    right: 10px;
+    color: var(--sky);
+}
+
+.social_nav {
+    float: none;
+    text-align: center;
+}
+
+.modal-dialog {
+    width: auto !important;
+}
+
+@media (min-width:576px) {
+    .header_middle form input[type="search"] {
+        width: 82%;
+    }
+
+    .elite_bag_logo {
+        position: absolute;
+        font-size: 20px;
+        top: 58px;
+        right: 12px;
+        color: var(--sky);
+    }
+
+    .modal-dialog {
+        max-width: 600px !important;
+    }
+
+}
+
+@media (min-width:768px) {
+    .header_middle form input[type="search"] {
+        width: 85%;
+    }
+
+    .header_middle form input[type="submit"] {
+        width: 12%;
+    }
+
+    .elite_bag_logo {
+        position: absolute;
+        font-size: 20px;
+        top: 61px;
+        right: 13px;
+        color: var(--sky);
+    }
+
+    .box_1 {
+        margin: 0 20px;
+    }
+}
+
+@media (min-width:992px) {
+    .header_middle form input[type="search"] {
+        width: 84%;
+    }
+
+    .header_middle form input[type="submit"] {
+        width: 14%;
+    }
+
+    .logo_elite h1 a {
+        font-size: 1.2em;
+    }
+
+    .elite_bag_logo {
+        position: absolute;
+        font-size: 20px;
+        top: 73px;
+        right: 17px;
+        color: var(--sky);
+    }
+
+    .social_nav {
+        float: right;
+    }
+
+    .nav_wrapper {
+        margin: 0 auto;
+    }
+
+    .box_1 {
+        padding: 15px 0;
+        margin: 0 30px;
+    }
+}
+
+@media (min-width:1200px) {
+    .logo_elite h1 a {
+        font-size: 1.4em;
+    }
+
+    .nav_menu {
+        margin: 0 9px;
+    }
+
+    .nav_menu a {
+        font-size: 1.2rem !important;
+    }
+
+    .box_1 {
+        padding: 16px 0;
+        margin: 0 30px;
+    }
+}
+
+@media (min-width:1400px) {
+    .nav_menu a {
+        font-size: 1.4rem !important;
+    }
+
+    .box_1 {
+        padding: 15px 0;
+        margin: 0 40px;
+    }
+
+    button.view_cart {
+        width: 50px;
+        height: 50px;
+        font-size: 27px;
+    }
+
+    .logo_elite h1 a {
+        font-size: 1.5em;
+    }
+
+    .elite_bag_logo {
+        position: absolute;
+        font-size: 20px;
+        top: 73px;
+        right: 17px;
+        color: var(--sky);
+    }
+}

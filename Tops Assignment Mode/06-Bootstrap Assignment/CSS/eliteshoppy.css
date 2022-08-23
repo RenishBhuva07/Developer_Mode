@@ -1,0 +1,543 @@
+:root {
+    /*(2fdab8) */
+    --sky: rgb(47, 218, 184);
+    --cart_sky: #17c3a2;
+    --white: white;
+    --black: black;
+    --search_border_gray: rgb(221, 221, 221);
+    --search_font_gray: rgb(132, 132, 132);
+    --facebook_color: #3b5998;
+    --twitter_color: #00acee;
+    --instagram: #f77737;
+    --linkedin: #bd081c;
+    --header_a_side_borders: #464444;
+    --dropdown_img_shadow: #AFAFAF;
+    --dropdown_menu_color: #545454;
+}
+
+.sky {
+    color: var(--sky);
+}
+
+body a {
+    text-decoration: none;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+/* ------------------------------HEADER IS START------------------------------ */
+.Header_A ul li a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* ----------HEADER_A IS START---------- */
+
+.Header_A ul li {
+    /* display: inline-block; */
+    /* width: 24.5%; */
+    text-align: center;
+    color: var(--white);
+    font-size: 13px;
+    padding: 7px 0;
+    letter-spacing: 1px;
+    border-right: 1px solid var(--header_a_side_borders);
+    border-left: 1px solid var(--header_a_side_borders);
+}
+
+.Header_A ul {
+    padding: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.Header_A {
+    background-color: var(--black);
+}
+
+/* ----------HEADER_A IS END---------- */
+
+/* ----------HEADER_B IS START---------- */
+
+.Header_B {
+    padding: 10px 0;
+}
+
+.flex {
+    align-items: center;
+}
+
+.header_middle {
+    padding: 0;
+}
+
+.header_middle form input[type="submit"] {
+    background: url(../Images/search.png) 4px 0px no-repeat var(--sky);
+    height: 50px;
+    padding: 0px;
+    border: none;
+    outline: none;
+}
+
+.header_middle form input[type="search"] {
+    outline: none;
+    padding: 12px 10px;
+    color: var(---search_font_gray);
+    font-size: 16px;
+    border: 1px solid var(--search_border_gray);
+    letter-spacing: 1px;
+}
+
+.logo_elite h1 a {
+    font-weight: 300;
+    color: var(--black);
+    letter-spacing: 1px;
+    font-size: 1.5em;
+    position: relative;
+}
+
+.logo_elite span {
+    background: var(--black);
+    padding: 0 17px;
+    font-weight: bold;
+    color: var(--white);
+}
+
+/* .elite_bag_logo {
+    position: absolute;
+    font-size: 20px;
+    top: 73px;
+    right: 17px;
+    color: var(--sky);
+} */
+
+li.share {
+    vertical-align: middle;
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.social_nav {
+    padding: 0;
+    list-style: none;
+    /* display: inline-block; */
+    margin: 1em 0 0;
+    /* float: right; */
+}
+
+.social_nav a {
+    display: inline-block;
+    float: none;
+    width: 30px;
+    /* height: 30px; */
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    line-height: 30px;
+    position: relative;
+    color: var(--white);
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.social_nav a:hover {
+    color: var(--white) !important;
+}
+
+.social_nav li {
+    display: inline-block;
+    margin: 0 6px;
+}
+
+.facebook {
+    background-color: var(--facebook_color);
+}
+
+.twitter {
+    background-color: var(--twitter_color);
+}
+
+.instagram {
+    background-color: var(--instagram);
+}
+
+.linkedin {
+    background-color: var(--linkedin);
+}
+
+.facebook:hover,
+.twitter:hover,
+.instagram:hover,
+.linkedin:hover {
+    transform: translate(0, -10%)
+}
+
+/* ----------HEADER_B IS END---------- */
+
+/* ----------HEADER_C IS START---------- */
+/* .nav_menu {
+    margin: 0 9px;
+} */
+
+.nav_menu a {
+    color: var(--white) !important;
+    font-size: 1.1rem !important;
+    padding: 15px !important;
+}
+
+.box_1:hover .view_cart {
+    background-color: var(--black);
+    color: var(--white);
+    transition: .2s;
+}
+
+.box_1 {
+    background: var(--sky);
+    padding: 7px 0;
+    text-align: center;
+}
+
+button.view_cart {
+    transition: .2s;
+    outline: none;
+    border: none;
+    background-color: var(--cart_sky);
+    width: 48px;
+    height: 43px;
+    font-size: 24px;
+    color: var(--black);
+}
+
+ul.dropdown-menu.multi_column.columns_3 {
+    /* border-top: 1px solid rgba(255, 255, 255, 0.09);
+    border-bottom: 1px solid var(--white); */
+    margin-top: 8px;
+}
+
+.dropdown-menu.columns_3 {
+    min-width: 700px;
+    padding: 20px 20px;
+}
+
+/*-- navigation --*/
+ul.multi_column_dropdown {
+    padding: 0 !important;
+}
+
+
+ul.multi_column_dropdown li {
+    list-style-type: none;
+    line-height: 2.5em;
+}
+
+ul.multi_column_dropdown li a {
+    padding: 0 !important;
+    text-decoration: none;
+    font-size: 0.9em !important;
+    color: var(--dropdown_menu_color) !important;
+    letter-spacing: 1px;
+}
+
+ul.multi_column_dropdown li a:hover {
+    color: var(--sky) !important;
+}
+
+.col-sm-3.multi_gd_img {
+    padding: 0;
+}
+
+.col-sm-6.multi_gd_img1 {
+    padding-right: 20px;
+    padding-left: 10px;
+}
+
+.multi_gd_img img,
+.multi_gd_img1 img {
+    box-shadow: 0px 0px 7px 0px var(--dropdown_img_shadow);
+}
+
+
+/*-- //navigation --*/
+.multi_gd_text a {
+    display: block;
+    position: relative;
+}
+
+.multi_gd_text a:hover::before {
+    width: 100%;
+    height: 100%;
+}
+
+.multi_gd_text a::before {
+    background: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    transition: all 0.5s ease-out 0s;
+    z-index: 99;
+    content: "";
+}
+
+.multi_gd_text img {
+    height: auto;
+    width: 100%;
+}
+
+.multi_gd_text a:hover::after {
+    width: 100%;
+    height: 100%;
+}
+
+.multi_gd_text a::after {
+    background: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    transition: all 0.5s ease-out 0s;
+    z-index: 99;
+    content: "";
+}
+
+.short_code {
+    margin-top: 8px;
+}
+
+.short_code a {
+    color: var(--dropdown_menu_color) !important;
+}
+
+.short_code a:hover {
+    color: var(--sky) !important;
+}
+
+/* HEADER_C HOVER LINE CSS START */
+
+
+
+.menu_line:hover {
+    background-color: var(--sky);
+    color: var(--black) !important;
+}
+
+/* .menu_line:hover {
+    opacity: 1;
+}
+
+.menu_line::before {
+    transition: 300ms;
+    height: 5px;
+    content: "";
+    position: absolute;
+    background-color: var(--sky);
+}
+
+.menu_line_ltr::before {
+    width: 0%;
+    bottom: 0px;
+}
+
+.menu_line_ltr:hover::before {
+    width: 100%;
+} */
+
+
+
+/* HEADER_C HOVER LINE CSS END */
+
+/* -----SIGN IN MODALS CSS START----- */
+h3.eliteinfo_sign {
+    font-size: 1.2em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 2em;
+}
+
+h3.eliteinfo_sign span {
+    font-weight: 400;
+}
+
+.modal-header {
+    display: block !important;
+}
+
+.modal-header .close {
+    margin-top: -2px;
+}
+
+button.close {
+    -webkit-appearance: none;
+    padding: 0;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+}
+
+.close {
+    float: right;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=20);
+    opacity: .2;
+}
+
+
+.modal-body.modal-body-sub_agile input[type="text"],
+.modal-body.modal-body-sub_agile input[type="email"],
+.modal-body.modal-body-sub_agile input[type="password"] {
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #777;
+    /* padding: 0.5em 1em 0.5em 0; */
+    border: 0;
+    width: 100%;
+    border-bottom: 1px solid #dcdcdc;
+    background: none;
+    -webkit-appearance: none;
+    outline: none;
+}
+
+/* 
+.modal-body.modal-body-sub_agile ::-webkit-input-placeholder {
+    color: #212121 !important;
+} */
+
+.modal-body.modal-body-sub_agile input[type="submit"] {
+    border: none;
+    padding: 10px 40px 10px;
+    font-size: 14px;
+    outline: none;
+    text-transform: uppercase;
+    margin: 30px 0 0 6px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    background: #111;
+    color: #fff;
+}
+
+.modal-body.modal-body-sub_agile input[type="submit"]:hover {
+    background: #2fdab8;
+}
+
+
+.modal-body.modal-body-sub_agile p a {
+    font-size: 0.875em;
+    color: #212121;
+    letter-spacing: 1px;
+}
+
+.modal-body.modal-body-sub_agile p {
+    font-size: 0.85em;
+    font-weight: 600;
+    line-height: 2em;
+    color: #000;
+}
+
+.modal-body.modal-body-sub_agile {
+    padding: 0 0em 1em 2em;
+    margin-top: 1em;
+}
+
+.modal_body_left.modal_body_left1 {
+    padding-left: 0;
+}
+
+.signin_social_nav {
+    padding: 0;
+    list-style: none;
+    /* display: inline-block; */
+    margin: 2em 0 0.5em 0;
+    /* float: right; */
+}
+
+.signin_social_nav li {
+    display: inline-block;
+    margin: 0 6px;
+}
+
+.signin_social_nav a {
+    display: inline-block;
+    float: none;
+    width: 30px;
+    /* height: 30px; */
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    line-height: 30px;
+    position: relative;
+    color: var(--white);
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.signin_social_nav a:hover {
+    color: var(--white) !important;
+}
+
+.styled-input input:focus~label,
+.styled-input input:valid~label,
+.styled-input textarea:focus~label,
+.styled-input textarea:valid~label {
+    font-size: 1.2em;
+    color: var(--black) !important;
+    -webkit-transition: all 0.125s;
+    -moz-transition: all 0.125s;
+    -o-transition: all 0.125s;
+    -ms-transition: all 0.125s;
+    transition: all 0.125s;
+}
+
+.form-floating>.form-control-plaintext~label,
+.form-floating>.form-control:focus~label,
+.form-floating>.form-control:not(:placeholder-shown)~label,
+.form-floating>.form-select~label {
+    opacity: 1 !important;
+    color: var(--sky) !important;
+    outline: none !important;
+    transform: scale(.85) translateY(-0.5rem) translateX(0.15rem);
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+}
+
+.styled-input label {
+    color: #555 !important;
+    padding: 0.5em 0em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    pointer-events: none;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: block;
+    line-height: 1em;
+}
+
+/* -----SIGN IN MODALS CSS END----- */
+
+
+/* ----------HEADER_C IS END---------- */
+/* ------------------------------HEADER IS END------------------------------ */

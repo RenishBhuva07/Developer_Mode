@@ -1,0 +1,138 @@
+@media (max-width: 1024px) {
+
+    /* custom css  */
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 17px;
+        line-height: 1;
+    }
+
+    .wrapper {
+        padding: 1.25rem 0;
+    }
+}
+
+
+
+@media (max-width: 991px) {
+
+    /* custom css  */
+    h4 {
+        font-size: 15px;
+        line-height: 1;
+    }
+
+    p {
+        font-size: 15px;
+        line-height: 1.31;
+    }
+
+    .text-content {
+        width: 100%;
+    }
+
+    /* header section  */
+
+    .navigation-wrap .navbar-brand img {
+        height: 45px;
+    }
+
+    .navbar-toggler i {
+        color: var(--white-color);
+        line-height: 2;
+    }
+
+    .navigation-wrap {
+        text-align: right;
+        background-color: var(--black-color);
+    }
+
+    .navigation-wrap .nav-link {
+        line-height: 1.87;
+    }
+
+    /* Banner section  */
+    #home {
+        padding: 68px 0 0;
+    }
+
+    /* top banner  */
+    #home .carousel-caption {
+        top: 56px;
+    }
+}
+
+
+@media (max-width: 575px) {
+
+    /* custom css  */
+    h1 {
+        font-size: 22px;
+    }
+
+    h2 {
+        font-size: 16px;
+        line-height: 1;
+        margin-bottom: 5px;
+    }
+
+    .main-btn {
+        height: 20px;
+        line-height: 20px;
+        font-size: 16px;
+    }
+
+    .main-btn::after {
+        transform: translateY(16px);
+        --webkit-transform: translateY(16px);
+    }
+
+    .main-btn::before {
+        transform: translateY(-16px);
+        --webkit-transform: translateY(-16px);
+    }
+
+    /* top banner  */
+    #home .carousel-caption {
+        top: 20px;
+    }
+
+    #home .carousel-caption p {
+        margin: 15px auto;
+    }
+}
+
+
+@media (max-width: 430px) {
+
+    /* custom css  */
+    h1 {
+        margin-bottom: 0;
+    }
+
+    /* top banner  */
+    .header-top {
+        display: none;
+    }
+
+    #home .carousel-caption p {
+        font-size: 12px;
+        line-height: 1.25;
+    }
+
+    #home .carousel-caption {
+        padding: 0;
+    }
+}
+
+
+@media (max-width: 360px) {
+
+    /* top banner  */
+    #home .carousel-caption {
+        top: 16px;
+    }
+}

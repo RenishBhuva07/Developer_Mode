@@ -1,0 +1,333 @@
+@media (max-width:1300px) {
+    .header_wrapper .menu-navbar-nav {
+        width: auto;
+    }
+}
+
+@media (max-width:1230px) {
+    .header_wrapper .nav-item {
+        margin: 0 5px;
+    }
+
+    .header_wrapper .learn-more-btn {
+        padding: 12px 10px !important;
+    }
+}
+
+@media (max-width:1070px) {
+    .header_wrapper .nav-item .nav-link {
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width:991px) {
+    .heade_wrapper .navbar-brand img {
+        width: 180px;
+    }
+
+    .header_wrapper .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .header_wrapper .menu-navbar-nav {
+        text-align: center;
+    }
+
+    .header_wrapper .nav-item .nav-link {
+        margin-top: 15px;
+        font-size: 18px;
+    }
+
+    .header_wrapper .nav-item:last-child .nav-link {
+        margin-bottom: 20px;
+    }
+
+    .header_wrapper .learn-more-btn {
+        padding: 12px 29px !important;
+    }
+
+    .header_wrapper .navbar-collapse {
+        background: var(--bg-white);
+    }
+
+    /* banner */
+    .banner_wrapper .banner_title {
+        margin-top: 20px;
+        /* text-align: center; */
+    }
+
+    .banner_wrapper .banner_text {
+        max-width: 718px;
+        font-size: 35px;
+        /* text-align: center; */
+    }
+
+    .banner_wrapper {
+        margin-top: 106px;
+    }
+
+    .header_wrapper {
+        position: fixed;
+        z-index: 2;
+        background-color: #fff;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding: 10px 0px;
+    }
+
+    .skil_wrapper .every_title {
+        font-size: 34px;
+        text-align: center;
+    }
+
+    .skil_wrapper .every-type img {
+        position: absolute;
+        top: -2%;
+        left: 29px;
+    }
+
+    .skil_wrapper .every_text {
+        font-size: 25px;
+    }
+
+    .skil_wrapper .every-type {
+        text-align: center;
+    }
+
+    .skil_wrapper .every_link {
+        font-size: 21px;
+    }
+
+    .feature_wrapper .feature_icon {
+        font-size: 17px;
+        margin-top: 20px;
+        border-radius: 50px;
+        height: 0%;
+        box-shadow: 0px 15px 44px rgb(13 15 28 / 12%);
+        background: #FBFBFB;
+        padding: 16px;
+    }
+
+    .teacher_wrapper img {
+        max-width: 100%;
+        height: 96%;
+    }
+
+    .teacher_wrapper .teacher_title {
+        font-size: 35px;
+        margin-top: 40px;
+    }
+
+    .teacher_wrapper .teacher_text {
+        font-size: 15px;
+    }
+
+    .teacher_wrapper .teacher_row {
+        padding: 35px 0 0;
+    }
+
+    .teacher_wrapper .teachers_title {
+        font-size: 27px;
+        margin-top: 45px;
+    }
+
+    .teacher_wrapper .teachers_text {
+        font-size: 14px;
+    }
+
+    .teacher_wrapper .teacher_title {
+        font-size: 32px;
+        margin-top: 27px;
+    }
+
+    .teacher_wrapper .teacher-text::after {
+        content: "";
+        position: absolute;
+        width: 97px;
+    }
+
+    .teacher_wrapper .teacher_titles {
+        font-size: 24px;
+        margin-bottom: 11px !important;
+
+    }
+
+    .teacher_wrapper .teacher_texts {
+        font-size: 14px;
+    }
+
+    .teacher_wrapper .teacher_rows {
+        padding: 50px 0;
+    }
+
+    .teacher_wrapper .teacher-texts::after {
+        content: "";
+        position: absolute;
+        left: -35%;
+        width: 60px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    /* banner */
+    .banner_wrapper .banner_title {
+        font-size: 30px;
+    }
+
+    .banner_wrapper .banner_text {
+        max-width: 718px;
+        font-size: 20px;
+    }
+
+    .banner_wrapper .learn_more_link {
+        margin-left: 0px;
+        font-size: 17px;
+        padding: 13px 17px !important;
+        color: var(--text-sky-blue);
+        background: var(--bg-white);
+    }
+
+    .banner_wrapper .learn-more {
+        text-decoration: none;
+        color: var(--text-light-gray);
+        margin-left: 0;
+    }
+
+    .companies_wrapper .companies_text {
+        font-size: 17px;
+    }
+
+    .companies_wrapper {
+        padding: 7px 0;
+    }
+
+    .all_wrapper {
+        padding: 50px 0;
+    }
+
+    .skil_wrapper .every-type img {
+        position: absolute;
+        z-index: -1;
+        top: 3%;
+        left: 4px;
+    }
+
+    .skil_wrapper .every_title {
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    .skil_wrapper .every_text {
+        font-size: 15px;
+    }
+
+    .feature_wrapper .features_title {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .teacher_wrapper .teacher_title {
+        font-size: 36px;
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    .teacher_wrapper img {
+        max-width: 100%;
+        height: 100%;
+    }
+
+    .teacher_wrapper .teachers_title {
+        font-size: 33px;
+        margin-top: 35px;
+        text-align: center;
+    }
+
+    .teacher_wrapper .teachers_text {
+        text-align: center;
+    }
+
+    .teacher_wrapper .teacher-text::after {
+        content: "";
+        position: absolute;
+        width: 107px;
+    }
+
+    .teacher_wrapper .teacher_titles {
+        font-size: 25px;
+    }
+
+    .teacher_wrapper .teacher_rows {
+        padding: 40px 0;
+    }
+
+    .teacher_wrapper .teacher_images {
+        width: 62% !important;
+        height: 30% !important;
+    }
+
+    .teacher_wrapper .teacher-texts::after {
+        content: "";
+        position: absolute;
+        left: -6%;
+    }
+
+    .teacher_link {
+        text-align: center;
+    }
+
+    .teacher_wrapper .teacher_text {
+        text-align: center;
+    }
+
+    .lastest_wrapper .news_title {
+        font-weight: 700;
+        line-height: 1.3;
+        font-size: 18px;
+    }
+
+    .lastest_wrapper .news_text {
+        font-size: 17px;
+    }
+
+    .lastest_wrapper .news-title {
+        font-weight: 700;
+        line-height: 1.3;
+        font-size: 18px;
+    }
+
+    .lastest_wrapper .news-text {
+        font-size: 18px;
+    }
+
+    .lastest_wrapper .card {
+        text-align: center;
+    }
+
+    .footer_wrapper .footer_titles {
+        color: #b2b3cf;
+        font-size: 22px;
+    }
+
+    .footer_wrapper .footer-title {
+        font-size: 21px;
+        line-height: 1.6;
+    }
+
+    .banner_wrapper {
+        margin-top: 106px;
+    }
+
+    .header_wrapper {
+        position: fixed;
+        z-index: 2;
+        background-color: #fff;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding: 10px 0px;
+    }
+}

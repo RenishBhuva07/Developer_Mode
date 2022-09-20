@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Pyramid</title>
+</head>
+
+<body>
+
+    <script>
+        // ---------- Method-1-START ----------
+        // --------------------------------------------------
+        // FOR 1 TO 5
+        function Pyramid1(row) {
+
+            for (let i = 1; i <= row; i++) {
+
+                let stars = "* ".repeat(i);
+
+                // console.log(stars);
+                // document.write(stars + "<br/>");
+            }
+        }
+        Pyramid1(5)
+        // --------------------------------------------------
+        // FOR 5 TO 1
+        function Pyramid(row) {
+
+            for (let i = row; i >= 1; i--) {
+
+                let stars = "* ".repeat(i)
+
+                // console.log(stars);
+                // document.write(stars + "<br/>");
+            }
+        }
+        Pyramid(5)
+        // --------------------------------------------------
+        // ---------- Method-1-END ----------
+        // ----------------------------------------------------------------------------------------------------
+        // ---------- Method-2-START ----------
+        // --------------------------------------------------
+        // FOR 1 TO Enter Number
+
+        let pyramidlength = prompt("Number Of Star");
+
+        for (let i = 0; i <= pyramidlength; i++) {
+            let row = "* ".repeat(i);
+            // console.log(row);
+            // document.write(row + "<br/>")
+        }
+        // --------------------------------------------------
+        // FOR 1 TO Enter Number
+
+        let pyramidlength2 = prompt("Number Of Star");
+
+        for (let i = 0; i <= pyramidlength2; i++) {
+            let row = "* ".repeat(i);
+            // console.log(row);
+            // document.write(row + "<br/>")
+        }
+        // --------------------------------------------------
+        // ---------- Method-2-END ----------
+        // ----------------------------------------------------------------------------------------------------
+        // ---------- Method- TRINGLE -START ----------
+        // --------------------------------------------------
+        // FOR 1 TO 5
+
+        function Pyramidt1(row) {
+            for (let i = 1; i <= row; i++) {
+                let stars = "* ".repeat(i);
+                let spaces = " ".repeat(row - i)
+                console.log(spaces + stars);
+                // document.write(spaces + stars + "<br/>");
+            }
+        }
+        // Pyramidt1(5)
+
+        // --------------------------------------------------
+        // FOR 5 TO 1
+
+        function Pyramidt2(rows) {
+            for (let i = rows; i >= 1; i--) {
+                let stars = "* ".repeat(i);
+                let spaces = " ".repeat(rows - i)
+                console.log(spaces + stars);
+                // document.write(spaces + stars + "<br/>");
+            }
+        }
+        Pyramidt2(5)
+        // --------------------------------------------------
+        // ---------- Method-3-END ----------
+    </script>
+
+</body>
+
+</html>
